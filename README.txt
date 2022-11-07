@@ -83,3 +83,5 @@ Mohit
 	-Added bootswatch theme (Darkly), changed nav theme classes to match with bootswatch theme
 0414
 	-removed text-dark classes from login and register links
+0424
+	-Added additional css and javascript links in layout file
