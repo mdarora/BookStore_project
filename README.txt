@@ -79,3 +79,5 @@ Mohit
 	-Commented signin flag in startup.cs file
 0347
 	-checked debugging by adding breakpoint on privacy view
+0409
+	-Added bootswatch theme (Darkly), changed nav theme classes to match with bootswatch theme
