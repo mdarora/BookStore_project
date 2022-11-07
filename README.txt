@@ -74,4 +74,6 @@ Mohit
 2022-11-07
 
 0315
-	-Because additional projects were not included in my github repo , i created a new repo on github and added this readme and starting the new projct from starting
+	-Because additional projects were not included in my github repo before, I created a new repo on github and added this readme and starting the new projct from starting
+0332
+	-Commented signin flag in startup.cs file
