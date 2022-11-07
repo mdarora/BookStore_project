@@ -87,3 +87,5 @@ Mohit
 	-Added additional css and javascript links in layout file
 0430
 	-Added dropdown from bootswatch theme
+0448
+	-Added three class library projects in the solution
