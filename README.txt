@@ -81,3 +81,5 @@ Mohit
 	-checked debugging by adding breakpoint on privacy view
 0409
 	-Added bootswatch theme (Darkly), changed nav theme classes to match with bootswatch theme
+0414
+	-removed text-dark classes from login and register links
