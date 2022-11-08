@@ -119,4 +119,6 @@ Mohit
 0105
 	-It was same error as the last time, i hope it doesn't go on loo like last time.
 0110
-	- for now it built with 1 succeeded 0 failed, 
+	- for now it built with 1 succeeded 0 failed,
+0156
+	- Created SD.cs class in utility project, can't understand what properties to change in this file
