@@ -91,3 +91,6 @@ Mohit
 	-Added three class library projects in the solution
 0453
 	-it class time , rest work for later
+
+2022-11-08
+	-moved data folder to dataAccess project
