@@ -93,4 +93,8 @@ Mohit
 	-it class time , rest work for later
 
 2022-11-08
-	-moved data folder to dataAccess project
+
+1221
+	-moved data folder to dataAccess project 
+1222
+	-installed to package dependencies in DataAccess
