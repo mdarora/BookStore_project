@@ -126,3 +126,7 @@ Mohit
 	- Added project references
 0203
 	-got same error in that same file Error.cshtml.g.cs for the 7th time and it gets on repeated
+
+
+0441
+	-edited error viewmodel path to solve the last error that i got more that 8 times
