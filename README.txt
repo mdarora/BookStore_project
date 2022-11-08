@@ -98,3 +98,6 @@ Mohit
 	-moved data folder to dataAccess project 
 1222
 	-installed to package dependencies in DataAccess
+	-deleted migration folder
+1234
+	-installed EFcore
