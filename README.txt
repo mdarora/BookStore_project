@@ -105,3 +105,7 @@ Mohit
 	-edited namespace of dataAccess
 1238
 	-deleted class1 files
+1242
+	-Luckily Build completed with 4 succeeded and 0 failed
+1250
+	-Copied Model folder to outer project
