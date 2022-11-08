@@ -109,3 +109,6 @@ Mohit
 	-Luckily Build completed with 4 succeeded and 0 failed
 1250
 	-Copied Model folder to outer project
+1255
+	-renamed models folder to ViewModels
+	-Added project references
