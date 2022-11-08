@@ -122,3 +122,5 @@ Mohit
 	- for now it built with 1 succeeded 0 failed,
 0156
 	- Created SD.cs class in utility project, can't understand what properties to change in this file
+2000
+	- Added project references
