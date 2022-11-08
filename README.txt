@@ -103,3 +103,5 @@ Mohit
 	-installed EFcore
 1236
 	-edited namespace of dataAccess
+1238
+	-deleted class1 files
