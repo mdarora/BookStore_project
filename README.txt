@@ -112,3 +112,11 @@ Mohit
 1255
 	-renamed models folder to ViewModels
 	-Added project references
+1259
+	-Build completed with 1 succeeded 1 failed, finally got an error 
+0104
+	-editied homecontrolles to add viewModels and built now got 2 other errors
+0105
+	-It was same error as the last time, i hope it doesn't go on loo like last time.
+0110
+	- for now it built with 1 succeeded 0 failed, 
