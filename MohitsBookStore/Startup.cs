@@ -63,13 +63,6 @@ namespace MohitsBookStore
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
-            });
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -77,6 +70,15 @@ namespace MohitsBookStore
                   template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
                 );
             });
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
+            });
+            
         }
     }
 }
