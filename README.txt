@@ -139,3 +139,8 @@ Mohit
 	-Added Customers area and edited startup.cs to add appmvc area routes.
 0222
 	-Moved HomeController.cs to new customers area and added area refeerence
+0223
+	-woho now showing nothing on browser. let's find out in next steps
+0237
+	-Moved views and viewstart, viewimport file to new customer area rebuild succeeded.
+	-But still showing blank page on browser.
