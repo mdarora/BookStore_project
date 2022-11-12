@@ -137,3 +137,5 @@ Mohit
 	-Reviewing the project and next task
 0207
 	-Added Customers area and edited startup.cs to add appmvc area routes.
+0222
+	-Moved HomeController.cs to new customers area and added area refeerence
