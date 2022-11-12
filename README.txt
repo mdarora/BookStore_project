@@ -153,3 +153,5 @@ Mohit
 	-Now trying to add admin area
 0347
 	-Added Admin area and copied same view files as last Area, not showing errors , actually not showing anything
+0349
+	-I doubt the last slide when it says delete controllers folder, but deleting it anyway because its clearly written their 
