@@ -158,3 +158,6 @@ Mohit
 0510
 	-Added route attribute to home controller in customer area to access index page from base url in the browser
 	-this is the solution of that blank page in browser
+
+0512
+	-Heading for part-2
