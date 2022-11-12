@@ -130,3 +130,10 @@ Mohit
 
 0441
 	-edited error viewmodel path to solve the last error that i got more that 8 times
+
+2022-11-12
+
+0144
+	-Reviewing the project and next task
+0207
+	-Added Customers area and edited startup.cs to add appmvc area routes.
