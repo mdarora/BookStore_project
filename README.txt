@@ -147,4 +147,9 @@ Mohit
 0310
 	-INdex page showing in browser when i add /Customers in url but not on base route
 0331
-	-Copied back viewstart and viewimport file because lastime i moved them instead of copying, 
+	-Copied back viewstart and viewimport file because lastime i moved them instead of copying,
+0342
+	-Still couldn't figure out why route are not working correctly
+	-Now trying to add admin area
+0347
+	-Added Admin area and copied same view files as last Area, not showing errors , actually not showing anything
