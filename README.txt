@@ -144,3 +144,5 @@ Mohit
 0237
 	-Moved views and viewstart, viewimport file to new customer area rebuild succeeded.
 	-But still showing blank page on browser.
+0310
+	-INdex page showing in browser when i add /Customers in url but not on base route
