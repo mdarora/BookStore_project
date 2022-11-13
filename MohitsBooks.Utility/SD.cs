@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MohitsBooks.Utility
 {
-    internal class SD
+    public static class SD
     {
     }
 }

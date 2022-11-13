@@ -161,3 +161,14 @@ Mohit
 
 0512
 	-Heading for part-2
+
+
+
+2022-11-13
+
+0140
+	-Reviewing complete previous assignment.
+0145
+	-Changing some left over things that i think i missed in part-1
+0147
+	-Modifying properties of sd.cs class
