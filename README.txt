@@ -131,6 +131,8 @@ Mohit
 0441
 	-edited error viewmodel path to solve the last error that i got more that 8 times
 
+
+
 2022-11-12
 
 0144
@@ -173,3 +175,6 @@ Mohit
 	-Modifying properties of sd.cs class
 0211
 	-Modified area routing in startup.cs and namespace of homeController, after reviewing slides again
+
+0227
+	-deleted the controller folder from root, previously i deleted from admin area, now is the correction time
