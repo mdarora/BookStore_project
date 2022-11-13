@@ -187,3 +187,11 @@ Mohit
 0244
 	- I ran add-migration command in root folder and it was success than i saw error in slide and got to know that i did not delete data folder from root.
 	- That's why i didn't get error that i should've got. 
+	- Now i know what project to select 
+
+0249
+	- Build failed :(
+0251
+	-got errors after deleting data folder from root, i shoul've counter these error before but no worries now
+0252
+	-Changed using statement for dataAccess in startup and errors are gone.
