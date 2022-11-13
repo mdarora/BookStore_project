@@ -210,3 +210,5 @@ Mohit
 	-Updated database
 0334
 	-Checked sql database, new table for categories added
+0433
+	-After wasting time on insta-reels now i have made iRepo interface and added properties and methods in it.
