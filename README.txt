@@ -178,3 +178,5 @@ Mohit
 
 0227
 	-deleted the controller folder from root, previously i deleted from admin area, now is the correction time
+0234
+	-just found out that i copied HOme folder in admin area which was not mentioned in the slides , so deleted it
