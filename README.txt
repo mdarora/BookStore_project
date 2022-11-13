@@ -203,3 +203,8 @@ Mohit
 	-update database success
 0304
 	-Rebuild success, no errors working well on browser
+0321
+	-Added new model class in Models project Category.cs and updated ApplicationDbContext file to help migration
+	-Ran add-migration command to push to database
+0333
+	-Updated database
