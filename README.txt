@@ -208,3 +208,5 @@ Mohit
 	-Ran add-migration command to push to database
 0333
 	-Updated database
+0334
+	-Checked sql database, new table for categories added
