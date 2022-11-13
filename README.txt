@@ -201,3 +201,5 @@ Mohit
 	-Thanks to no errors new migration file (20221113195650_AddDefaultIdentityMigration.cs) added in dataAccess.
 0301
 	-update database success
+0304
+	-Rebuild success, no errors working well on browser
