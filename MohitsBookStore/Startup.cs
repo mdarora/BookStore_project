@@ -38,7 +38,7 @@ namespace MohitsBookStore
 
             services.AddControllersWithViews();
             services.AddRazorPages();
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+            //services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -63,19 +63,11 @@ namespace MohitsBookStore
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                  name: "areas",
-                  template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-                );
-            });
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customers}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
             

@@ -158,7 +158,6 @@ Mohit
 0510
 	-Added route attribute to home controller in customer area to access index page from base url in the browser
 	-this is the solution of that blank page in browser
-
 0512
 	-Heading for part-2
 
@@ -172,3 +171,5 @@ Mohit
 	-Changing some left over things that i think i missed in part-1
 0147
 	-Modifying properties of sd.cs class
+0211
+	-Modified area routing in startup.cs and namespace of homeController, after reviewing slides again
