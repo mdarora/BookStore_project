@@ -195,3 +195,9 @@ Mohit
 	-got errors after deleting data folder from root, i shoul've counter these error before but no worries now
 0252
 	-Changed using statement for dataAccess in startup and errors are gone.
+0256
+	-rebuilding success thankfully no errors now.
+0257
+	-Thanks to no errors new migration file (20221113195650_AddDefaultIdentityMigration.cs) added in dataAccess.
+0301
+	-update database success
