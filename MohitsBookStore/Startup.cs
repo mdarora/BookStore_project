@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MohitsBookStore.DataAccess.Data;
+using MohitsBooks.DataAcces.Repository;
+using MohitsBooks.DataAcces.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,6 +38,7 @@ namespace MohitsBookStore
             services.AddDefaultIdentity<IdentityUser>()         // commented above line to skip sigining flag   
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
             //services.AddMvc(options => options.EnableEndpointRouting = false);

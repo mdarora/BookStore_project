@@ -227,3 +227,8 @@ Mohit
 
 1240
 	-after too many google serches found out that "The simplest fix for this issue is to add or remove the public access modifier to the class or interface".
+1251
+	-Registered UnitOfWork class and interface in startup.cs file and getting different errors
+		-'IUnitOfWork' is inaccessible due to its protection level
+		-'UnitOfWork' is inaccessible due to its protection level
+	-And if i put public in these files they give prevous error again that is on line 226 if not thenit gives error of above line
