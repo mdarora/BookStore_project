@@ -239,3 +239,8 @@ Mohit
 	-for now i am commenting the line of error in startup.cs file which was registering Unitofwork class and interface, and trying to move on next step
 0158
 	-same files and error are disturbing in processNo more energy now. packup for now
+
+
+2022-11-14
+1244
+	-Commented the file i created after error to run the project once.
