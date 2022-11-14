@@ -232,3 +232,6 @@ Mohit
 		-'IUnitOfWork' is inaccessible due to its protection level
 		-'UnitOfWork' is inaccessible due to its protection level
 	-And if i put public in these files they give prevous error again that is on line 226 if not thenit gives error of above line
+0103
+	-These errors are too confusing, if if solve one error it gives another and if solve that one it gives the first one back.
+			-These errors are on loop
