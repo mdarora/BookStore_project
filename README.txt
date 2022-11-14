@@ -217,3 +217,7 @@ Mohit
 	-plus added properties and methods
 0628
 	-Created ISP_Call repository and added methods
+
+1037
+	-After a long break i'm back, and created SP_Call interface and its class.
+	-Updated implementation of the interface.
