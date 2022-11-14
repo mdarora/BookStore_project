@@ -221,3 +221,9 @@ Mohit
 1037
 	-After a long break i'm back, and created SP_Call interface and its class.
 	-Updated implementation of the interface.
+1123
+	- created UnitOfWork class and interface but getti two similar errors
+		-Inconsistent accessibility: property type 'ICategoryRepository' is less accessible than property 'UnitOfWork.Category'
+
+1240
+	-after too many google serches found out that "The simplest fix for this issue is to add or remove the public access modifier to the class or interface".
