@@ -246,3 +246,5 @@ Mohit
 	-Commented the file i created after error to run the project once.
 1246
 	-commented sslport in launch settings
+0143
+	-Updateded database via command line now showing all tables in class's desktop pc
