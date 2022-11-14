@@ -235,3 +235,5 @@ Mohit
 0103
 	-These errors are too confusing, if if solve one error it gives another and if solve that one it gives the first one back.
 			-These errors are on loop
+0110
+	-for now i am commenting the line of error in startup.cs file which was registering Unitofwork class and interface, and trying to move on next step
