@@ -237,3 +237,5 @@ Mohit
 			-These errors are on loop
 0110
 	-for now i am commenting the line of error in startup.cs file which was registering Unitofwork class and interface, and trying to move on next step
+0158
+	-same files and error are disturbing in processNo more energy now. packup for now
