@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MohitsBooks.DataAcces.Repository
 {
-    public class UnitOfWork
+    class UnitOfWork
     {
         private readonly ApplicationDbContext _db;
         public UnitOfWork(ApplicationDbContext db)
