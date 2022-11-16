@@ -38,7 +38,7 @@ namespace MohitsBookStore
             services.AddDefaultIdentity<IdentityUser>()         // commented above line to skip sigining flag   
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            //services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
             //services.AddMvc(options => options.EnableEndpointRouting = false);

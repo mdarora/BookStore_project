@@ -242,9 +242,20 @@ Mohit
 
 
 2022-11-14
+
+
 1244
 	-Commented the file i created after error to run the project once.
 1246
 	-commented sslport in launch settings
 0143
 	-Updateded database via command line now showing all tables in class's desktop pc
+
+
+2022-11-16
+
+0406
+	-I think i figured out how to solve that error in Unit of Work files, let's try
+0426
+	- Now i noticed every class and interface in repositry folder was set to internal and protected so they inaccessible to other files.
+	-now that i set them to public all errors are gone

@@ -11,7 +11,7 @@ using System.Text;
 namespace MohitsBooks.DataAcces.Repository
 {
    
-    internal class SP_Call : ISP_Call
+    public class SP_Call : ISP_Call
     {
         //access the database
         private readonly ApplicationDbContext _db;
