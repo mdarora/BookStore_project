@@ -264,3 +264,5 @@ Mohit
 	- Uncommented CategoryController file becoause i added it previouly and commented it due to UnitofWork files errors, now it is in use
 0440
 	- Added index view for category in admin area and pasted given html code from blackboard
+0445
+	- Added link of this index view of Category in the navbar inside of dropdown
