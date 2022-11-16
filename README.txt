@@ -266,3 +266,5 @@ Mohit
 	- Added index view for category in admin area and pasted given html code from blackboard
 0445
 	- Added link of this index view of Category in the navbar inside of dropdown
+0451
+	- Added fontAwesome icons in CategoryIndedx page
