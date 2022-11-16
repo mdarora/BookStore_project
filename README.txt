@@ -274,3 +274,6 @@ Mohit
 	-Okay so now i need to delete icons.
 0459
 	-Deleted Icons and added script file category.js at that place
+	-so via this javascript file it implemented datatables in the page
+0502
+	-Now its a maggie break;
