@@ -1,4 +1,4 @@
-﻿/*using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MohitsBooks.DataAcces.Repository.IRepository;
 
 namespace MohitsBookStore.Areas.Admin.Controllers
@@ -6,7 +6,7 @@ namespace MohitsBookStore.Areas.Admin.Controllers
     [Area("Admin")]
     public class CategoryController : Controller
     {
-        //private readonly IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
 
         public CategoryController(IUnitOfWork unitOfWork)
         {
@@ -27,4 +27,4 @@ namespace MohitsBookStore.Areas.Admin.Controllers
         #endregion
 
     }
-}*/
+}

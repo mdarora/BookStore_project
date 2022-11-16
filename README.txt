@@ -258,4 +258,7 @@ Mohit
 	-I think i figured out how to solve that error in Unit of Work files, let's try
 0426
 	- Now i noticed every class and interface in repositry folder was set to internal and protected so they inaccessible to other files.
-	-now that i set them to public all errors are gone
+	-now that i set them to public all errors are gone.
+
+0432
+	- Uncommented CategoryController file becoause i added it previouly and commented it due to UnitofWork files errors, now it is in use
