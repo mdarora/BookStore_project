@@ -270,3 +270,7 @@ Mohit
 	- Added fontAwesome icons in CategoryIndedx page
 0452
 	- Added bootstrap's class to center icons
+0456
+	-Okay so now i need to delete icons.
+0459
+	-Deleted Icons and added script file category.js at that place
