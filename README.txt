@@ -268,3 +268,5 @@ Mohit
 	- Added link of this index view of Category in the navbar inside of dropdown
 0451
 	- Added fontAwesome icons in CategoryIndedx page
+0452
+	- Added bootstrap's class to center icons
