@@ -277,3 +277,13 @@ Mohit
 	-so via this javascript file it implemented datatables in the page
 0502
 	-Now its a maggie break;
+
+
+
+2022-11-17
+
+0350
+	- It was a very long maggie break :)
+	-now further work is continued
+0358
+	-Added IActionResult of Upsert method in CAtegoryController and created view file for it
