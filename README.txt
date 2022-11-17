@@ -287,3 +287,5 @@ Mohit
 	-now further work is continued
 0358
 	-Added IActionResult of Upsert method in CAtegoryController and created view file for it
+0403
+	-pasted form in upsert view, that was given
