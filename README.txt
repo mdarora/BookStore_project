@@ -291,3 +291,5 @@ Mohit
 	-pasted form in upsert view, that was given
 0429
 	-created a partial file for create and back to list buttons
+0502
+	-created another partial file for edit and back buttons
