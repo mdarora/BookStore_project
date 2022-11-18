@@ -304,3 +304,6 @@ Mohit
 	-Added asp-action for upser file in index
 1243
 	-Added added script file for validation
+1253
+	-Added Upsert method for post request in category controller.
+	- Also added save method in IUnitOfWork

@@ -34,6 +34,25 @@ namespace MohitsBookStore.Areas.Admin.Controllers
             return View();
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                if(category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+                    _unitOfWork.save();
+                } 
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+            }
+            return View(category);
+        }
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
