@@ -307,3 +307,6 @@ Mohit
 1253
 	-Added Upsert method for post request in category controller.
 	- Also added save method in IUnitOfWork
+1257
+	-Moved Save method calling and added return satatement with redirection to index below the save method calling.
+	-Removed _db.saveChanges method from category repo
