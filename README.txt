@@ -300,3 +300,5 @@ Mohit
 
 1219
 	-Modified Upsert.cshtml file added some asp attributes to form elements
+1232
+	-Added asp-action for upser file in index 
