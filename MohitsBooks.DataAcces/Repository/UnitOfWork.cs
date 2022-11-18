@@ -27,10 +27,9 @@ namespace MohitsBooks.DataAcces.Repository
             _db.Dispose();
         }
 
-        public void Save()
+        public void save()
         {
             _db.SaveChanges();
         }
-
     }
 }
