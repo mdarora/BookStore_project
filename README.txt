@@ -345,3 +345,4 @@ Mohit
 	-delete button isn't responding, something is wrong
 0200
 	-okay its working just after restarting the build and iiS
+	-now i just wanna change some css for data table, font color having some mixmatch with background color
