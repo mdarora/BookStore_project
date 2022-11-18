@@ -331,3 +331,5 @@ Mohit
 	-replaced repository file with the one on blackboard 
 0119
 	-ohho got 9 errors because of new repo file, so i undid last commit and adding methods one by one
+0127
+	- Added methods inside code one by one instead of just replacing whole file at once
