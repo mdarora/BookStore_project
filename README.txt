@@ -341,3 +341,7 @@ Mohit
 	-Added the onclick event in js file to call the api delete endpoint
 0150
 	-created Delete function to make an api call using ajax and showing alerts withswal and toastr
+0154
+	-delete button isn't responding, something is wrong
+0200
+	-okay its working just after restarting the build and iiS
