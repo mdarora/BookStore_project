@@ -310,3 +310,11 @@ Mohit
 1257
 	-Moved Save method calling and added return satatement with redirection to index below the save method calling.
 	-Removed _db.saveChanges method from category repo
+0100
+	-Here is the encounter with errors
+		-'UnitOfWork' does not implement interface member 'IUnitOfWork.save()'
+		-The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?'
+0101
+	-I think solution for one of the is given in slides
+	-Yup, changed null to 0 in the Model.Id conditional statement.
+	-Now let's the other error
