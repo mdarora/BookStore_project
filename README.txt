@@ -339,3 +339,5 @@ Mohit
 	-Added Api call method for deleting the category in category controller
 0141
 	-Added the onclick event in js file to call the api delete endpoint
+0150
+	-created Delete function to make an api call using ajax and showing alerts withswal and toastr
