@@ -337,3 +337,5 @@ Mohit
 	-Now we are talking, successfully created new category;
 0138
 	-Added Api call method for deleting the category in category controller
+0141
+	-Added the onclick event in js file to call the api delete endpoint
