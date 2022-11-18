@@ -335,3 +335,5 @@ Mohit
 	- Added methods inside code one by one instead of just replacing whole file at once
 0128
 	-Now we are talking, successfully created new category;
+0138
+	-Added Api call method for deleting the category in category controller
