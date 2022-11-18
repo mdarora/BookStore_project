@@ -320,3 +320,10 @@ Mohit
 	-Now let's the other error
 0104
 	-Got it, I had Save method in UnitOfWork file with a capital S but it wanted with Small one, now fixed
+0111
+	-Got this error on browser while trying to add new category.
+		-NotImplementedException: The method or operation is not implemented.
+			-MohitsBooks.DataAcces.Repository.Repository<T>.Add(T entity) in Repository.cs, line 23
+	-let's see whats the problem with repository file.
+0113
+	- okay, i didn't copy the repository file from black board, so all the methods are left as they was ,just throwing the exception. fixing now
