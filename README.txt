@@ -348,3 +348,5 @@ Mohit
 	-now i just wanna change some css for data table, font color having some mixmatch with background color
 0220
 	-Changed background color of all table rows <Tr> and font color of text around table inside of datatable border
+0325
+	- Noticed that edit was not working , so added category parameter to the returning view method in upsert iactionresult of category controller
