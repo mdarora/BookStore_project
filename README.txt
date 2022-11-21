@@ -350,3 +350,14 @@ Mohit
 	-Changed background color of all table rows <Tr> and font color of text around table inside of datatable border
 0325
 	- Noticed that edit was not working , so added category parameter to the returning view method in upsert iactionresult of category controller
+
+
+
+
+2022-11-21
+
+0259
+	-Starting part3-section1
+	-Creating CRUD for Cover type
+0307
+	-created CoverType.cs file in Models
