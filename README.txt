@@ -371,3 +371,5 @@ Mohit
 0804
 	-Added new migration for CoverType "20221122010153_AddCoveTypeToDb.cs";
 	-Updated database  and the new table for cover types is created
+0844
+	-Created CoverTypeController with all required methods
