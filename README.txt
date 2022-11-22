@@ -373,3 +373,6 @@ Mohit
 	-Updated database  and the new table for cover types is created
 0844
 	-Created CoverTypeController with all required methods
+0907
+	-Created view for index and Upsert action methods
+	-Created CoverType.js javascript file to add datatable to index page of CoverType
