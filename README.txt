@@ -378,3 +378,5 @@ Mohit
 	-Created CoverType.js javascript file to add datatable to index page of CoverType
 0945
 	-Added coverType link in navbar
+0957
+	-testing done, create, edit and delete methods are working fine for CoverType
