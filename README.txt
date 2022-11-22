@@ -380,3 +380,7 @@ Mohit
 	-Added coverType link in navbar
 0957
 	-testing done, create, edit and delete methods are working fine for CoverType
+1137
+	-created Product class in Models project and added reference to the db context file;
+	-Added migration for products table "20221122043633_AddProductToDb.cs"
+	-products table created
