@@ -12,6 +12,7 @@ namespace MohitsBooks.DataAcces.Repository.IRepository
         ICategoryRepository Category { get; }
         ISP_Call SP_Call { get; }
         ICoverTypeRepository CoverType { get; }
+        IProductRepository Product { get; }
 
         void save();
     }

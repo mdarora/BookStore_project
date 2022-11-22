@@ -394,3 +394,5 @@ Mohit
 	-Added validation to the products class and migration added for it "20221122045855_AddValidationToProduct.cs"
 1245
 	-Created Repository and IRepository file for Product class
+1248
+	-Added product repo files to UnitOfWork and IUnitOfWork
