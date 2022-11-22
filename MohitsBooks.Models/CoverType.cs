@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MohitsBooks.Models
 {
-    internal class CoverType
+    public class CoverType
     {
         [Key]
         public int Id { get; set; }
