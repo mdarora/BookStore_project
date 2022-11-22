@@ -396,3 +396,5 @@ Mohit
 	-Created Repository and IRepository file for Product class
 1248
 	-Added product repo files to UnitOfWork and IUnitOfWork
+1253
+	-Build success, no errors
