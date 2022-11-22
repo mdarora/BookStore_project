@@ -376,3 +376,5 @@ Mohit
 0907
 	-Created view for index and Upsert action methods
 	-Created CoverType.js javascript file to add datatable to index page of CoverType
+0945
+	-Added coverType link in navbar
