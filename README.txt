@@ -384,3 +384,11 @@ Mohit
 	-created Product class in Models project and added reference to the db context file;
 	-Added migration for products table "20221122043633_AddProductToDb.cs"
 	-products table created
+
+
+
+2022-11-22
+
+
+1200
+	-Added validation to the products class and migration added for it "20221122045855_AddValidationToProduct.cs"
