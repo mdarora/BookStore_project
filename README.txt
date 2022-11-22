@@ -368,3 +368,6 @@ Mohit
 0754
 	-created CoverTypeRepository class
 	-Added CoverType In UnitOfWork and IUnitOfWork
+0804
+	-Added new migration for CoverType "20221122010153_AddCoveTypeToDb.cs";
+	-Updated database  and the new table for cover types is created
