@@ -363,3 +363,5 @@ Mohit
 	-created CoverType.cs file in Models
 0723
 	-Added coverType to appDBcontext file
+0730
+	-Created ICoverTypeRepository interface for covertype
