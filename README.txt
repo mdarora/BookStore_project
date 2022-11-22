@@ -361,3 +361,5 @@ Mohit
 	-Creating CRUD for Cover type
 0307
 	-created CoverType.cs file in Models
+0723
+	-Added coverType to appDBcontext file
