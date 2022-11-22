@@ -365,3 +365,6 @@ Mohit
 	-Added coverType to appDBcontext file
 0730
 	-Created ICoverTypeRepository interface for covertype
+0754
+	-created CoverTypeRepository class
+	-Added CoverType In UnitOfWork and IUnitOfWork
