@@ -422,3 +422,5 @@ Mohit
 
 1219
 	-Created index view for Product and modified it accordingly
+1229
+	-Created javascript file for product product.js
