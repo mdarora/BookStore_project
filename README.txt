@@ -414,3 +414,11 @@ Mohit
 	-Installed package Microsoft.AspNetCore.Mvc.ViewFeatures to correctly run productVM file
 1157
 	-Added required methods of product controller and Api calls
+
+
+
+
+2022-11-24
+
+1219
+	-Created index view for Product and modified it accordingly
