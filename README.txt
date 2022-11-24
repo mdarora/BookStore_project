@@ -424,3 +424,5 @@ Mohit
 	-Created index view for Product and modified it accordingly
 1229
 	-Created javascript file for product product.js
+1235
+	-Added link to index view of product to the dropdown of navbar
