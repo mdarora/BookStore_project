@@ -410,3 +410,5 @@ Mohit
 	-Created ProductController
 1100
 	-Created ProductVm class in ViewModel
+1113
+	-Installed package Microsoft.AspNetCore.Mvc.ViewFeatures to correctly run productVM file
