@@ -398,3 +398,13 @@ Mohit
 	-Added product repo files to UnitOfWork and IUnitOfWork
 1253
 	-Build success, no errors
+
+
+
+2022-11-23
+
+
+1040
+	-Starting section 2 by adding product controller
+1053
+	-Created ProductController
