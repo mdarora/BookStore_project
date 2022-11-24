@@ -412,3 +412,5 @@ Mohit
 	-Created ProductVm class in ViewModel
 1113
 	-Installed package Microsoft.AspNetCore.Mvc.ViewFeatures to correctly run productVM file
+1157
+	-Added required methods of product controller and Api calls
