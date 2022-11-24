@@ -408,3 +408,5 @@ Mohit
 	-Starting section 2 by adding product controller
 1053
 	-Created ProductController
+1100
+	-Created ProductVm class in ViewModel
