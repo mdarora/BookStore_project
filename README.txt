@@ -426,3 +426,5 @@ Mohit
 	-Created javascript file for product product.js
 1235
 	-Added link to index view of product to the dropdown of navbar
+0107
+	-Created Upsert View for product
