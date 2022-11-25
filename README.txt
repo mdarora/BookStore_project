@@ -428,3 +428,11 @@ Mohit
 	-Added link to index view of product to the dropdown of navbar
 0107
 	-Created Upsert View for product
+
+
+
+2022-11-25
+
+1156
+	-added upsert post method in product controller
+	-created images folder with a products sub folder
