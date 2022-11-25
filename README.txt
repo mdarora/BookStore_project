@@ -436,3 +436,5 @@ Mohit
 1156
 	-added upsert post method in product controller
 	-created images folder with a products sub folder
+1200
+	-edited upsert.cshtml to show correct covertype list
