@@ -454,3 +454,5 @@ Mohit
 0916
 	-Added more price columns to product table
 	-Added migration for new prices in product "20221201021536_AddMorePricesToProduct.cs"
+0922
+	-Added new inputs for new price columns
