@@ -446,3 +446,6 @@ Mohit
 
 0741
 	-Updated upsert post method for product and delete api call to also delete image of product
+0753
+	-Found error to fetch price and category name for data table
+	-solved it by adjusting name capitalization
