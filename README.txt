@@ -449,3 +449,5 @@ Mohit
 0753
 	-Found error to fetch price and category name for data table
 	-solved it by adjusting name capitalization
+0835
+	-Added product list to homecontroller and index view of customers area
