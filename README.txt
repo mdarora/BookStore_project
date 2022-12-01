@@ -451,3 +451,6 @@ Mohit
 	-solved it by adjusting name capitalization
 0835
 	-Added product list to homecontroller and index view of customers area
+0916
+	-Added more price columns to product table
+	-Added migration for new prices in product "20221201021536_AddMorePricesToProduct.cs"
