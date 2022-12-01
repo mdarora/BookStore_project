@@ -438,3 +438,11 @@ Mohit
 	-created images folder with a products sub folder
 1200
 	-edited upsert.cshtml to show correct covertype list
+
+
+
+
+2022-11-30
+
+0741
+	-Updated upsert post method for product and delete api call to also delete image of product

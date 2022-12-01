@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using MohitsBooks.DataAcces.Repository.IRepository;
 using MohitsBooks.Models;
 using MohitsBooks.Models.ViewModels;
+using System.IO;
+using System;
 using System.Linq;
 
 namespace MohitsBookStore.Areas.Admin.Controllers
@@ -55,22 +57,73 @@ namespace MohitsBookStore.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(Product product)
+        public IActionResult Upsert(ProductVM productVM)
         {
             if (ModelState.IsValid)
             {
-                if (product.Id == 0)
+                string webRootPath = _hostEnvironment.WebRootPath;
+                var files = HttpContext.Request.Form.Files;
+
+                if (files.Count > 0)
                 {
-                    _unitOfWork.Product.Add(product);
+                    string fileName = Guid.NewGuid().ToString();
+                    var uploads = Path.Combine(webRootPath, @"images\products");
+                    var extension = Path.GetExtension(files[0].FileName);
+
+                    if (productVM.Product.ImageUrl != null)
+                    {
+                        // this is an edit and we need to remove old image
+                        var imagePath = Path.Combine(webRootPath, productVM.Product.ImageUrl.TrimStart('\\'));
+                        if (System.IO.File.Exists(imagePath))
+                        {
+                            System.IO.File.Delete(imagePath);
+                        }
+                    }
+                    using (var filesStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+                    {
+                        files[0].CopyTo(filesStreams);
+                    }
+                    productVM.Product.ImageUrl = @"\images\products\" + fileName + extension;
                 }
                 else
                 {
-                    _unitOfWork.Product.Update(product);
+                    // update when they do not change the image
+                    if (productVM.Product.Id != 0)
+                    {
+                        Product objFromDb = _unitOfWork.Product.Get(productVM.Product.Id);
+                        productVM.Product.ImageUrl = objFromDb.ImageUrl;
+                    }
+                }
+
+                if (productVM.Product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(productVM.Product);
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(productVM.Product);
                 }
                 _unitOfWork.save();
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            else
+            {
+                productVM.CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                });
+                productVM.CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                });
+                if (productVM.Product.Id != 0)
+                {
+                    productVM.Product = _unitOfWork.Product.Get(productVM.Product.Id);
+                }
+            }
+            return View(productVM);
         }
 
 
@@ -79,7 +132,7 @@ namespace MohitsBookStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category, CoverType");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
             return Json(new { data = allObj });
         }
 
@@ -90,6 +143,12 @@ namespace MohitsBookStore.Areas.Admin.Controllers
             if(objFromDb == null)
             {
                 return Json(new { success = false, message = "Error While deleting" });
+            }
+            string webRootPath = _hostEnvironment.WebRootPath;
+            var imagePath = Path.Combine(webRootPath, objFromDb.ImageUrl.TrimStart('\\'));
+            if (System.IO.File.Exists(imagePath))
+            {
+                System.IO.File.Delete(imagePath);
             }
             _unitOfWork.Product.Remove(objFromDb);
             _unitOfWork.save();
